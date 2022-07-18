@@ -1,4 +1,4 @@
-import books from "../assets/data/violetbooks.json";
+import books from "../assets/data/books.json";
 import BookItem from "./BookItem";
 
 function BookBox() {

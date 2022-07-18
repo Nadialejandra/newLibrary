@@ -1,5 +1,5 @@
-import Emoticonos from "../componentes/Emoticonos";
-import BookInfo from "../componentes/BookInfo";
+import Emoticonos from "../components/Emoticonos";
+import BookInfo from "../components/BookInfo";
 
 
 function BookItem(props){

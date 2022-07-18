@@ -1,6 +1,7 @@
-import Header from "../componentes/Header.jsx";
- import BookBox from "../componentes/BookBox.jsx";
- import Router from "../application/Router.js";
+import BookBox from "../components/BookBox.jsx";
+import Header from "../components/Header.jsx";
+
+ 
 
  
      function Home() {
@@ -8,7 +9,7 @@ import Header from "../componentes/Header.jsx";
             <div className="container">
                  <Header/>
             <div>
-                 <BookBox/>
+        <BookBox/>
            </div>
        
            
