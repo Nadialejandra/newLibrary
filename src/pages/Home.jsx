@@ -1,14 +1,13 @@
-import Header from "../componentes/Header.jsx";
- import BookBox from "../componentes/BookBox.jsx";
+ import BookBox from "../components/BookBox"
+import Header from "../components/Header";
 
 
- 
      function Home() {
          return (
             <div className="container">
-                 <Header/>
+            <Header/>
             <div>
-                 <BookBox/>
+        <BookBox/>
            </div>
        
            

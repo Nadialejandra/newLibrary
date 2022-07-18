@@ -1,8 +1,8 @@
-import books from "../assets/data/violetbooks.json";
+import books from "../assets/data/books.json";
 import BookItem from "./BookItem";
 
 function BookBox() {
-    const listBooks = books.violetBooks.map((book) => {
+    const listBooks = books.books.map((book) => {
         return (<BookItem key={book.id} name={book.BookName} author={book.Author} image={book.Image} />)
     }
     )
